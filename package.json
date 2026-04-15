@@ -1,4 +1,11 @@
 {
+  "scripts": {
+    "start": "node index.js",
+    "dev:api": "node index.js",
+    "dev:web": "npm --prefix frontend run dev",
+    "build:web": "npm --prefix frontend run build",
+    "preview:web": "npm --prefix frontend run preview"
+  },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1",
